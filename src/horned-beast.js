@@ -1,7 +1,8 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import './Horned-Beast.css'
-import { Card } from "react-bootstrap";
+import Card from "react-bootstrap/Card";
+// import Typography from "react-bootstrap/Typography"
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -19,25 +20,25 @@ class HornedBeast extends React.Component {
 
   render() {
     return (
-      <Card className="horned-beast" style={{ width: '75%' }}>
-        <Card.Img
-          onClick={this.handleLikes}
-          src={this.props.src}
-          alt={this.props.alt}
-          title={this.props.title}
-        />
-        <Card.Body>
-          <Card.Title>{this.props.title}</Card.Title>
-          <Card.Text>
-          <p>♥️{this.state.likes}likes</p>
-          <p>{this.props.alt}</p>
-          <p>{this.props.text}</p>
-          <p>This Beast has {this.props.horns} horns!</p>
-          {/* <Button>BootStrap Button</Button>
-          <button>Html Button</button> */}
-          </Card.Text>
-        </Card.Body>
-      </Card >
+      <>
+        <Card className="horned-beast" style={{ width: '75%' }}>
+          <Card.Img
+            onClick={this.handleLikes}
+            src={this.props.src}
+            alt={this.props.alt}
+            title={this.props.title}
+          />
+          <Card.Body>
+            <Card.Title>{this.props.title}</Card.Title>
+              <Card.Text>♥️{this.state.likes}likes</Card.Text>
+              <Card.Text>{this.props.alt}</Card.Text>
+              <Card.Text>{this.props.text}</Card.Text>
+              <Card.Text>This Beast has {this.props.horns} horns!</Card.Text>
+              <Button>Test</Button>
+
+          </Card.Body>
+        </Card >
+      </>
 
     )
   }
