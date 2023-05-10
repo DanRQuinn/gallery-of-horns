@@ -69,7 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Time Estimate
+## Resources
+[Emoji Finder](https://emojifinder.com/hearts)
+
+## Time Estimate lab 2
 
 Number and name of feature: Display Imaages
 
@@ -102,3 +105,14 @@ Start time: 2:30
 Finish time: 3:30
 
 Actual time needed to complete: 1 hour
+
+
+Number and name of feature: Modal
+
+Estimate of time needed to complete: 2 hours
+
+Start time: 1:30
+
+Finish time: 4:00
+
+Actual time needed to complete: 2:30
