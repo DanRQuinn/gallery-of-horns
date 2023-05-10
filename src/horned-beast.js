@@ -1,5 +1,4 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import './Horned-Beast.css'
 import Card from "react-bootstrap/Card";
 // import Typography from "react-bootstrap/Typography"
