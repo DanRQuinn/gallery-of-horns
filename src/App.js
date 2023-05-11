@@ -3,8 +3,9 @@ import Header from './header.js';
 import Main from './main.js';
 import Footer from './footer.js';
 import './App.css';
-import data from './data.json';
 import SelectedBeast from './Selected-Beast.js'
+
+
 
 class App extends React.Component {
   constructor(props) {
@@ -43,7 +44,7 @@ class App extends React.Component {
         />
         <Main
           addHearts={this.addHearts} 
-          data={data}
+          data={this.state.rawData}
           handleShowModal={this.handleShowModal}
           />
         <Footer />
